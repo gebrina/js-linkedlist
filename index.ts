@@ -46,11 +46,9 @@ LLNode.prototype.remove = function(elemet){
 
 
 const lnode = new LLNode();
-  lnode.insert('gebre','head');
-   lnode.insert('nayom','gebre')
-   lnode.insert('testfa','nayom');
-  // lnode.display();
-   lnode.remove('gebre');
+   lnode.insert('cool','head');
+   lnode.insert('hey','listen')
+   lnode.insert('before','talking');
+   lnode.remove('before');
    lnode.display();
-  //  const prevG = lnode.findPrev('testfa');
-  //  console.log(prevG)
+  
